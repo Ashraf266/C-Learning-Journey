@@ -1,0 +1,20 @@
+#ifndef GRADEBOOK_H
+#define GRADEBOOK_H
+
+#include <iostream>
+#include <string>
+
+class GradeBook_v3
+{
+private:
+	string courseName;
+
+public:
+	GradeBook_v3(string name);
+	void setCourseName(string name);
+	string getCourseName();
+	void displayMessage();
+};
+
+
+#endif /* GRADEBOOK_H */

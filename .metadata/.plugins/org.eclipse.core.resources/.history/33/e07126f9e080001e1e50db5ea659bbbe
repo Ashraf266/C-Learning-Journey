@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class GradeBook_v0
+{
+public:
+	void displayMessage()
+	{
+		cout << "Welcome to the Grade Book!" << endl;
+	}
+};
+
+
+class GradeBook_v1
+{
+public:
+	void displayMessage(string courseName)
+	{
+		cout << "Welcome to the Grade Book for " << courseName << "!" << endl;
+	}
+};
+
+int main()
+{
+	GradeBook_v0 myGradeBook;
+	myGradeBook.displayMessage();
+
+	string courseName;
+	//cin >> courseName; //Stops at the first space
+	getline(cin, courseName);
+
+	GradeBook_v1 myGradeBook_1;
+	myGradeBook_1.displayMessage(5);
+
+	return 0;
+}

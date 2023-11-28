@@ -1,0 +1,7 @@
+21:22:55 **** Incremental Build of configuration Debug for project vectors_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\vectors_1.o" "..\\src\\vectors_1.cpp" 
+g++ -o vectors_1.exe "src\\vectors_1.o" 
+
+21:22:56 Build Finished. 0 errors, 0 warnings. (took 728ms)
+

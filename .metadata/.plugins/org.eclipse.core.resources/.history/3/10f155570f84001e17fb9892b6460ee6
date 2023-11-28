@@ -1,0 +1,23 @@
+#include <iostream>
+#include "gradebook.h"
+
+class GradeBook_v3
+{
+private:
+	string courseName;
+
+public:
+	GradeBook_v3(string);
+	void setCourseName(string);
+	string getCourseName();
+	void displayMessage();
+};
+
+int main(void)
+{
+
+	GradeBook_v3 myGradeBook_3("Physics 101");
+	cout << myGradeBook_3.getCourseName() <<endl;
+
+	return 0;
+}

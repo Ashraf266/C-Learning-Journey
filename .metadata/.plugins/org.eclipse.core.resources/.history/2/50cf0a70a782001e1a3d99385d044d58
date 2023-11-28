@@ -1,0 +1,24 @@
+#include "gradebook.h"
+
+
+
+
+GradeBook::GradeBook_v3(string name)
+{
+	setCourseName(name);
+}
+
+void GradeBook::setCourseName(string name)
+{
+	courseName = name;
+}
+
+string GradeBook::getCourseName()
+{
+	return courseName;
+}
+
+void GradeBook::displayMessage()
+{
+	cout << "Welcome to the Grade Book for " << courseName << "!" << endl;
+}
