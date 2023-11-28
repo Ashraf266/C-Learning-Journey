@@ -29,5 +29,5 @@ string GradeBook_v3::getCourseName()
 
 void GradeBook_v3::displayMessage()
 {
-	cout << "Welcome to the Grade Book for " << courseName << "!" << endl;
+	cout << "Welcome to the Grade Book for " << getCourseName() << "!" << endl;
 }
