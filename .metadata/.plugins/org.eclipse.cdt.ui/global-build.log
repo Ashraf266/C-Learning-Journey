@@ -1,38 +1,5 @@
-12:12:58 **** Incremental Build of configuration Debug for project classes_4 ****
+02:33:38 **** Incremental Build of configuration Debug for project classes_4 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
 g++ -o classes_4.exe Time.o main.o 
 Info: Nothing to build for classes_4
-12:14:26 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-12:15:34 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-12:15:46 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-12:15:54 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-12:16:48 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-12:17:01 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-Info: Nothing to build for classes_4
-14:13:00 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-14:13:10 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
