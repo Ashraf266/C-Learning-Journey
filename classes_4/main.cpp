@@ -14,6 +14,12 @@ int main(void)
 	time1.printStandard();
 	time1.printUniversal();
 
+	//Time time2;
+	Time time2(22);
+
+	time2.printStandard();
+	time2.printUniversal();
+
 
 	return 0;
 }
