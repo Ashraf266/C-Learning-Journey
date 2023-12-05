@@ -20,6 +20,8 @@ int main(void)
 	time2.printStandard();
 	time2.printUniversal();
 
+	//std::cout << &time1 <<std:: endl;
+
 
 	return 0;
 }

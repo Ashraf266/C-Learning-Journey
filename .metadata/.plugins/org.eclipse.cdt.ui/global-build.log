@@ -1,39 +1,14 @@
-10:55:26 **** Incremental Build of configuration Debug for project classes_4 ****
+14:15:43 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp: In function 'int main()':
-..\main.cpp:18:14: error: no matching function for call to 'Time::Time(int)'
-  Time time2(4);
-              ^
-In file included from ..\main.cpp:2:0:
-..\Time.hpp:7:2: note: candidate: Time::Time()
-  Time();
-  ^~~~
-..\Time.hpp:7:2: note:   candidate expects 0 arguments, 1 provided
-..\Time.hpp:4:7: note: candidate: constexpr Time::Time(const Time&)
- class Time
-       ^~~~
-..\Time.hpp:4:7: note:   no known conversion for argument 1 from 'int' to 'const Time&'
-..\Time.hpp:4:7: note: candidate: constexpr Time::Time(Time&&)
-..\Time.hpp:4:7: note:   no known conversion for argument 1 from 'int' to 'Time&&'
-10:55:49 **** Incremental Build of configuration Debug for project classes_4 ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CreateAndDestroy.o "..\\CreateAndDestroy.cpp" 
+g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
+Info: Nothing to build for Constructors&Destructors
+14:17:09 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-10:57:45 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-10:58:08 **** Incremental Build of configuration Debug for project classes_4 ****
+g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
+14:17:52 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-10:58:15 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_4.exe Time.o main.o 
-11:00:01 **** Incremental Build of configuration Debug for project classes_4 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Time.o "..\\Time.cpp" 
-g++ -o classes_4.exe Time.o main.o 
+g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
