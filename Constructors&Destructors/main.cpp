@@ -21,7 +21,7 @@ int main()
 	CreateAndDestroy object3(6, "local auto in main");
 
 
-	cout << "main function ends ..." << endl;
+	cout << "main function ends ...." << endl;
 	return 0;
 }
 

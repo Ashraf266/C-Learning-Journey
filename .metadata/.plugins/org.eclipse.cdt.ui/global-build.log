@@ -1,14 +1,1 @@
-14:15:43 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CreateAndDestroy.o "..\\CreateAndDestroy.cpp" 
-g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
-Info: Nothing to build for Constructors&Destructors
-14:17:09 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
-14:17:52 **** Incremental Build of configuration Debug for project Constructors&Destructors ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o Constructors&Destructors.exe CreateAndDestroy.o main.o 
+Info: Nothing to build for sandbox2
