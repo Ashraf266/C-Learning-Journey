@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;classes_2/gradebook.c&apos;" deleteContents="false" description="Delete resource &apos;classes_2/gradebook.c&apos;" element1="/classes_2/gradebook.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1699935931486"/>
-</session>

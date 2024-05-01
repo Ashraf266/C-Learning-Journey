@@ -1,7 +1,0 @@
-06:26:06 **** Incremental Build of configuration Debug for project classes_2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o classes_2.exe main.o 
-
-06:26:06 Build Finished. 0 errors, 0 warnings. (took 521ms)
-
